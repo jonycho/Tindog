@@ -118,12 +118,10 @@ background: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,1));
     }
 
     .cross-btn:active{
-        background-color: #FFE7EF;
-        box-shadow: 0px 10px 20px #EDD9DF;
+        transform: scale(0.8);
     }
     .heart-btn:active{
-        background-color: #DBFFF4;
-        box-shadow: 0px 10px 20px #CCF1E6;
+        transform: scale(0.8);
     }
 
     @media (hover: hover) {
