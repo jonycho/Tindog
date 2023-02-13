@@ -116,14 +116,19 @@ background: linear-gradient(rgba(255,255,255,1), rgba(246,247,251,1));
         cursor:pointer;
         transition:0.5s all;
     }
-    .cross-btn:hover{
-        background-color: #FFE7EF;
-        box-shadow: 0px 10px 20px #EDD9DF;
+
+    @media (hover: hover) {
+        .cross-btn:hover{
+            background-color: #FFE7EF;
+            box-shadow: 0px 10px 20px #EDD9DF;
+        }
+        .heart-btn:hover{
+            background-color: #DBFFF4;
+            box-shadow: 0px 10px 20px #CCF1E6;
+        }
     }
-    .heart-btn:hover{
-        background-color: #DBFFF4;
-        box-shadow: 0px 10px 20px #CCF1E6;
-    }
+
+   
     
     .end-text{
         margin-top:50px;

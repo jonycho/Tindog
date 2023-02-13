@@ -23,12 +23,12 @@ function render(){
         heartBtn.disabled = false;    
         
         // Save the name of the first dog
-        const dogArray = arrayDogs.shift()
+        const dogArrayName = arrayDogs.shift()
         
         // Search the name of the Dog in Data and save the info of that dog
-        const nextDogData = dogsData.filter(dog=> dog.name===dogArray)
+        const nextDogData = dogsData.filter(dog=> dog.name===dogArrayName)
         
-        // Create an instance class Animal (because it is the only element in the array I use the [0])
+        // Create an instance class Animal (because it is the only element in the array so I use the [0])
         dog = new Animal(nextDogData[0])
         dogContainer.innerHTML = dog.getDogInfoHtml()
     }else{
