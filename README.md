@@ -1,5 +1,5 @@
 
-# Tindog
+# Tindog 🐶♥
 
 This project is a simple clone of Tinder 😍 but for dogs 🐾. Some specs of this project: JavaScript Classes, import/export files, CSS animations, button handle.
 
